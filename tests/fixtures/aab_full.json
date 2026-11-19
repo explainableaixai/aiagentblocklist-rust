@@ -1,0 +1,36 @@
+{
+ "product": "AI Agent Blocklist",
+ "version": "test-1",
+ "counts": {
+  "domains": 3,
+  "identifiers": 13,
+  "entries": 16,
+  "chrome_extension_ids": 1,
+  "edge_extension_ids": 1,
+  "firefox_extension_ids": 1,
+  "macos_bundle_ids": 1,
+  "windows_package_ids": 1,
+  "process_names": 3,
+  "npm_packages": 2,
+  "pypi_packages": 1
+ },
+ "columns": ["tool_name", "tool_domain", "category", "subcategory", "agent_type", "kind", "ident", "name", "platform", "risk_grade"],
+ "entries": [
+  {"tool_name": "Example Agent", "tool_domain": "example-agent.ai", "category": "Agents & Automation", "subcategory": "General autonomous agents", "agent_type": "Autonomous agent", "kind": "domain", "ident": "example-agent.ai", "name": "Example Agent", "platform": "Network", "risk_grade": "High"},
+  {"tool_name": "Sample Browser", "tool_domain": "sample-browser.app", "category": "Browsers", "subcategory": "AI browsers", "agent_type": "AI browser", "kind": "domain", "ident": "sample-browser.app", "name": "Sample Browser", "platform": "Network", "risk_grade": "Elevated"},
+  {"tool_name": "Demo MCP Server", "tool_domain": "demo-mcp-server.dev", "category": "Code & Development", "subcategory": "MCP servers", "agent_type": "MCP server", "kind": "domain", "ident": "demo-mcp-server.dev", "name": "Demo MCP Server", "platform": "Network", "risk_grade": "Moderate"},
+  {"tool_name": "Sample Browser", "tool_domain": "sample-browser.app", "category": "Browsers", "subcategory": "Browser agents", "agent_type": "Browser agent", "kind": "chrome_ext", "ident": "abcdefghijklmnopabcdefghijklmnop", "name": "Sample Browser Companion", "platform": "Chrome", "risk_grade": "Elevated"},
+  {"tool_name": "Sample Browser", "tool_domain": "sample-browser.app", "category": "Browsers", "subcategory": "Browser agents", "agent_type": "Browser agent", "kind": "edge_ext", "ident": "ponmlkjihgfedcbaponmlkjihgfedcba", "name": "Sample Browser Companion", "platform": "Edge", "risk_grade": "Elevated"},
+  {"tool_name": "Example Agent", "tool_domain": "example-agent.ai", "category": "Agents & Automation", "subcategory": "General autonomous agents", "agent_type": "Autonomous agent", "kind": "firefox_ext", "ident": "agent@example-agent.ai", "name": "Example Agent for Firefox", "platform": "Firefox", "risk_grade": "High"},
+  {"tool_name": "Sample Browser", "tool_domain": "sample-browser.app", "category": "Browsers", "subcategory": "AI browsers", "agent_type": "AI browser", "kind": "mac_bundle_id", "ident": "com.example.agentbrowser", "name": "Sample Browser", "platform": "macOS", "risk_grade": "Elevated"},
+  {"tool_name": "Example Agent", "tool_domain": "example-agent.ai", "category": "Agents & Automation", "subcategory": "General autonomous agents", "agent_type": "Autonomous agent", "kind": "process_win", "ident": "SampleAgent.exe", "name": "Example Agent Desktop", "platform": "Windows", "risk_grade": "High"},
+  {"tool_name": "Sample Browser", "tool_domain": "sample-browser.app", "category": "Browsers", "subcategory": "AI browsers", "agent_type": "AI browser", "kind": "process_mac", "ident": "Sample Browser", "name": "Sample Browser", "platform": "macOS", "risk_grade": "Elevated"},
+  {"tool_name": "Demo Coder", "tool_domain": "demo-coder.dev", "category": "Code & Development", "subcategory": "Autonomous coding agents", "agent_type": "Coding agent", "kind": "process_cli", "ident": "demo-agent", "name": "demo-agent (npm bin of @example/agent-cli)", "platform": "Command line", "risk_grade": "Moderate"},
+  {"tool_name": "Demo MCP Server", "tool_domain": "demo-mcp-server.dev", "category": "Code & Development", "subcategory": "MCP servers", "agent_type": "MCP server", "kind": "npm", "ident": "demo-mcp-server", "name": "demo-mcp-server", "platform": "npm", "risk_grade": "Moderate"},
+  {"tool_name": "Demo Coder", "tool_domain": "demo-coder.dev", "category": "Code & Development", "subcategory": "Autonomous coding agents", "agent_type": "Coding agent", "kind": "npm", "ident": "@example/agent-cli", "name": "@example/agent-cli", "platform": "npm", "risk_grade": "Low"},
+  {"tool_name": "Demo MCP Server", "tool_domain": "demo-mcp-server.dev", "category": "Code & Development", "subcategory": "MCP servers", "agent_type": "MCP server", "kind": "pypi", "ident": "Demo_MCP.Server", "name": "Demo_MCP.Server", "platform": "PyPI", "risk_grade": "Moderate"},
+  {"tool_name": "Demo Coder", "tool_domain": "demo-coder.dev", "category": "Code & Development", "subcategory": "Autonomous coding agents", "agent_type": "Coding agent", "kind": "vscode_ext", "ident": "ExampleAgent.agent-helper", "name": "Example Agent Helper", "platform": "VS Code", "risk_grade": "Low"},
+  {"tool_name": "Example Assistant", "tool_domain": "example-assistant.io", "category": "Productivity", "subcategory": "Personal AI assistants", "agent_type": "Personal AI assistant", "kind": "winget", "ident": "ExampleCorp.AgentDesktop", "name": "Example Assistant Desktop", "platform": "Windows", "risk_grade": "Not graded"},
+  {"tool_name": "Demo Coder", "tool_domain": "demo-coder.dev", "category": "Code & Development", "subcategory": "Autonomous coding agents", "agent_type": "Coding agent", "kind": "jetbrains_plugin", "ident": "com.example.agent.jetbrains", "name": "Demo Coder for JetBrains", "platform": "JetBrains IDEs", "risk_grade": "Moderate"}
+ ]
+}
